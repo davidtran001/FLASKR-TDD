@@ -31,7 +31,6 @@ if url.startswith("postgres://"):
 SQLALCHEMY_DATABASE_URI = url
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-
 # create and initialize a new Flask app
 app = Flask(__name__)
 # load the config
